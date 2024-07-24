@@ -24,7 +24,7 @@
                 <span id="passworderror" class="text-danger"></span>
             </div>
             <span> </span>
-            <div class="m-2">
+            <!-- <div class="m-2">
             <label for="date">Date of birth?</label><br>
             <select name="date" id="date">
                 <option value="1">1</option>
@@ -88,7 +88,7 @@
                 <option value="2009">2009</option>
                 <option value="2010">2010</option>
                 <option value="above 2010">above 2010</option>
-            </select><br>
+            </select><br> -->
             </div>
             <span></span>
             <div class="m-2">
@@ -102,9 +102,7 @@
                 <hr>
                 <div class="text-center m-2">
                     <p>People who use our service may have uploaded your contact information</p>
-                    <button type="button" class="btn btn-success btn-lg" onclick="submitform()" href="">sign in</button><br>
-                    <a style=" margin:10px  display=block color=#8344cc" href="#">forgotten
-                        password?</a>
+                    <button type="button" class="btn btn-success btn-lg" onclick="submitform()" href="">sign up</button><br>
                 </div>
             </div>
         </form>

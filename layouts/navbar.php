@@ -8,24 +8,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="C:\laragon\www\lakshita\PMS\project\project.php">projects</a>
+                    <a class="nav-link" href="user.php">users</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-                        
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li> -->
                 <li class="nav-item">
-                    <a class="nav-link" href="task.php">task</a>
+                    <a class="nav-link" href="project.php">projects</a>
                 </li>
                 <li>
                     <form class="d-flex">
@@ -35,8 +24,41 @@
                     </form>
                 </li>
             </ul>
-            <div class="d-flex">
-            <a type="button" class="btn btn-primary mx-2" href="">log in</a>
+            <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                log in
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">log in</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row mt-3">
+                                    <label class="d-block" for="e-id">Email or phone</label>
+                                    <input class="d-block form-input" type="email" id="e-id" name="e-id">
+                                </div>
+                                <div class="row mt-3">
+                                    <label class="d-block" for="pwd">Password</label>
+                                    <input class="d-block form-input" type="password" id="pwd" name="pwd">
+                                </div>
+                                <hr>
+                                <div class="row mt-3">
+                                    <a style=" margin:10px  display=block color=#8344cc" href="#">forgotten
+                                        password?</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">log in</button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
